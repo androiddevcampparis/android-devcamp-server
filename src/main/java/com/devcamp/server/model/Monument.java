@@ -2,6 +2,11 @@ package com.devcamp.server.model;
 
 import javax.xml.bind.annotation.XmlRootElement;
 
+import org.bson.types.ObjectId;
+
+import com.google.code.morphia.annotations.Entity;
+import com.google.code.morphia.annotations.Id;
+
 /**
  * Created by IntelliJ IDEA.
  * User: sam
@@ -9,8 +14,11 @@ import javax.xml.bind.annotation.XmlRootElement;
  * Time: 1:59 AM
  * To change this template use File | Settings | File Templates.
  */
-@XmlRootElement (name = "monument")
+@Entity
+@XmlRootElement
 public class Monument {
+	@Id
+	private ObjectId id;
     private String REF;
     private String ETUD;
     private String LOCA;

@@ -18,14 +18,10 @@ import java.util.Scanner;
  * To change this template use File | Settings | File Templates.
  */
 public class ProcessMonumentFile {
-    final String MONUMENTS_RESOURCES_URL="http://www.data.gouv.fr/var/download/MH-Ile-de-France.txt";
+    private final static String MONUMENTS_RESOURCES_URL="http://www.data.gouv.fr/var/download/MH-Ile-de-France.txt";
 
-    public ProcessMonumentFile(){
-
-    }
-
-    public List<Monument> parseTextFile(){
-
+    
+    public static List<Monument> parseTextFile(){
         List<Monument> monuments = new ArrayList<Monument>();
         Scanner scanner = null;
         try {
@@ -55,7 +51,7 @@ public class ProcessMonumentFile {
 
     }
 
-    public String serializeToJson(List<Monument> monuments){
+    private static String serializeToJson(List<Monument> monuments){
         Gson gson = new Gson();
         StringBuilder sb = new StringBuilder();
         sb.append("{" + "\n");
@@ -68,9 +64,5 @@ public class ProcessMonumentFile {
 
     }
 
-    public static void main(String[] args){
-        ProcessMonumentFile pmf = new ProcessMonumentFile();
-        System.out.println(pmf.serializeToJson(pmf.parseTextFile()));
-    }
 
 }

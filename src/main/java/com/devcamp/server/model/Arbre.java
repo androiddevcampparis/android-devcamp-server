@@ -2,6 +2,10 @@ package com.devcamp.server.model;
 
 import javax.xml.bind.annotation.XmlRootElement;
 
+import org.bson.types.ObjectId;
+
+import com.google.code.morphia.annotations.Entity;
+import com.google.code.morphia.annotations.Id;
 /**
  * Created by IntelliJ IDEA.
  * User: sam
@@ -9,9 +13,13 @@ import javax.xml.bind.annotation.XmlRootElement;
  * Time: 2:00 AM
  * To change this template use File | Settings | File Templates.
  */
+@Entity
 @XmlRootElement
 public class Arbre {
-
+	
+	@Id
+    private ObjectId id;
+	
     private String hauteur;
     private String recordid;
     private String addresse;
