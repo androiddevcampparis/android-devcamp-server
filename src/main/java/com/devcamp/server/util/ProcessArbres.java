@@ -3,7 +3,7 @@ package com.devcamp.server.util;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.devcamp.server.model.Arbre;
+import com.devcamp.server.model.poi.Arbre;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 

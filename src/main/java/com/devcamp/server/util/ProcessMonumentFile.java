@@ -1,6 +1,6 @@
 package com.devcamp.server.util;
 
-import com.devcamp.server.model.Monument;
+import com.devcamp.server.model.poi.Monument;
 import com.google.gson.Gson;
 
 import java.io.IOException;
