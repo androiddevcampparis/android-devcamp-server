@@ -1,13 +1,11 @@
 package com.devcamp.server.resources;
 
-import javax.xml.bind.annotation.XmlRootElement;
-
 import org.bson.types.ObjectId;
 
 import com.devcamp.server.model.PoiData;
 
-@XmlRootElement
 public class ResponseData {
+
 	private ObjectId id;
 	private String title;
 	private String description;
@@ -15,14 +13,14 @@ public class ResponseData {
 	private String category;
 	private double latitude;
 	private double longitude;
-	
+
 	private String url_image;
 	private String wiki_link;
-	
+
 	public ResponseData (){
-		
+
 	}
-	
+
 	public ResponseData(PoiData poiData){
 		this.id=poiData.getId();
 		this.title=poiData.getTitre();
@@ -31,9 +29,8 @@ public class ResponseData {
 		this.category=poiData.getCategory();
 		this.latitude=poiData.getLatitude();
 		this.longitude=poiData.getLongitute();
-		
+
 	}
-	
 
 	public ObjectId getId() {
 		return id;
@@ -75,6 +72,22 @@ public class ResponseData {
 		this.category = category;
 	}
 
+	public double getLatitude() {
+		return latitude;
+	}
+
+	public void setLatitude(double latitude) {
+		this.latitude = latitude;
+	}
+
+	public double getLongitude() {
+		return longitude;
+	}
+
+	public void setLongitude(double longitude) {
+		this.longitude = longitude;
+	}
+
 	public String getUrl_image() {
 		return url_image;
 	}
@@ -90,20 +103,6 @@ public class ResponseData {
 	public void setWiki_link(String wiki_link) {
 		this.wiki_link = wiki_link;
 	}
-	
-	
-	public String buildWikiUrl(){
-		return "";
-		
-	}
-	
-	public String findImagesURls(){
-		return "";
-		
-	}
-	
-	
-	
 	
 	
 

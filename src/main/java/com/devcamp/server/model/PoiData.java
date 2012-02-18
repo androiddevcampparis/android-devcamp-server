@@ -1,12 +1,9 @@
 package com.devcamp.server.model;
 
-import javax.xml.bind.annotation.XmlRootElement;
-
 import org.bson.types.ObjectId;
 
-@XmlRootElement
 public class PoiData {
-	
+
 	private ObjectId id;
 	private String titre;
 	private String addresse;
@@ -43,7 +40,6 @@ public class PoiData {
 		this.addresse = addresse;
 	}
 
-	
 	public String getDescription() {
 		return description;
 	}
@@ -75,13 +71,7 @@ public class PoiData {
 	public void setCategory(String category) {
 		this.category = category;
 	}
-
-	@Override
-	public String toString() {
-		return "PoiDATA [id=" + id + ", titre=" + titre + ", addresse="
-				+ addresse + ", longitute=" + longitute + ", latitude="
-				+ latitude + ", category=" + category + "]";
-	}
+	
 	
 	
 

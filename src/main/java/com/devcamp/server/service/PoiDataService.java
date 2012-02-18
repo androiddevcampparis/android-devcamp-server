@@ -8,7 +8,7 @@ import java.util.Set;
 import com.devcamp.server.model.PoiData;
 import com.devcamp.server.resources.ResponseData;
 import com.devcamp.server.util.InitDatabase;
-
+import com.devcamp.server.model.*;
 
 public class PoiDataService {
 	
