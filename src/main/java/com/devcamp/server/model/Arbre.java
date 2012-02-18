@@ -1,5 +1,7 @@
 package com.devcamp.server.model;
 
+import java.util.Arrays;
+
 import javax.xml.bind.annotation.XmlRootElement;
 
 import org.bson.types.ObjectId;
@@ -20,138 +22,162 @@ public class Arbre {
 	@Id
     private ObjectId id;
 	
-    private String hauteur;
+    private String HAUTEUR;
     private String recordid;
-    private String addresse;
-    private String espece;
-    private String arrondisse;
-    private String famille;
+    private String ADRESSE;
+    private String ESPECE;
+    private String ARRONDISSE;
+    private String FAMILLE;
     private String[] geom_x_y;
     private String geom_name;
-    private String genre;
-    private String nom_commun;
-    private String circonf;
-    private String annee__pla;
-    private String espace_v_1;
+    private String GENRE;
+    private String NOM_COMMUN;
+    private String CIRCONF;
+    private String ANNEE__PLA;
+    private String ESPACE_V_1;
     private String datasetid;
-
-    public String getHauteur() {
-        return hauteur;
-    }
-
-    public void setHauteur(String hauteur) {
-        this.hauteur = hauteur;
-    }
-
-    public String getRecordid() {
-        return recordid;
-    }
-
-    public void setRecordid(String recordid) {
-        this.recordid = recordid;
-    }
-
-    public String getAddresse() {
-        return addresse;
-    }
-
-    public void setAddresse(String addresse) {
-        this.addresse = addresse;
-    }
-
-    public String getEspece() {
-        return espece;
-    }
-
-    public void setEspece(String espece) {
-        this.espece = espece;
-    }
-
-    public String getArrondisse() {
-        return arrondisse;
-    }
-
-    public void setArrondisse(String arrondisse) {
-        this.arrondisse = arrondisse;
-    }
-
-    public String getFamille() {
-        return famille;
-    }
-
-    public void setFamille(String famille) {
-        this.famille = famille;
-    }
-
-    public String[] getGeom_x_y() {
-        return geom_x_y;
-    }
-
-    public void setGeom_x_y(String[] geom_x_y) {
-        this.geom_x_y = geom_x_y;
-    }
-
-    public String getGeom_name() {
-        return geom_name;
-    }
-
-    public void setGeom_name(String geom_name) {
-        this.geom_name = geom_name;
-    }
-
-    public String getGenre() {
-        return genre;
-    }
-
-    public void setGenre(String genre) {
-        this.genre = genre;
-    }
-
-    public String getNom_commun() {
-        return nom_commun;
-    }
-
-    public void setNom_commun(String nom_commun) {
-        this.nom_commun = nom_commun;
-    }
-
-    public String getCirconf() {
-        return circonf;
-    }
-
-    public void setCirconf(String circonf) {
-        this.circonf = circonf;
-    }
-
-    public String getAnnee__pla() {
-        return annee__pla;
-    }
-
-    public void setAnnee__pla(String annee__pla) {
-        this.annee__pla = annee__pla;
-    }
-
-    public String getEspace_v_1() {
-        return espace_v_1;
-    }
-
-    public void setEspace_v_1(String espace_v_1) {
-        this.espace_v_1 = espace_v_1;
-    }
-
-    public String getDatasetid() {
-        return datasetid;
-    }
-
-    public void setDatasetid(String datasetid) {
-        this.datasetid = datasetid;
-    }
-
-
-
-    public Arbre(){
+    
+	public Arbre() {
 
     }
 
+	public ObjectId getId() {
+		return id;
+	}
 
+	public void setId(ObjectId id) {
+		this.id = id;
+	}
+
+	public String getHAUTEUR() {
+		return HAUTEUR;
+	}
+
+	public void setHAUTEUR(String hAUTEUR) {
+		HAUTEUR = hAUTEUR;
+	}
+
+	public String getRecordid() {
+		return recordid;
+	}
+
+	public void setRecordid(String recordid) {
+		this.recordid = recordid;
+	}
+
+	public String getADRESSE() {
+		return ADRESSE;
+	}
+
+	public void setADRESSE(String aDRESSE) {
+		ADRESSE = aDRESSE;
+	}
+
+	public String getESPECE() {
+		return ESPECE;
+	}
+
+	public void setESPECE(String eSPECE) {
+		ESPECE = eSPECE;
+	}
+
+	public String getARRONDISSE() {
+		return ARRONDISSE;
+	}
+
+	public void setARRONDISSE(String aRRONDISSE) {
+		ARRONDISSE = aRRONDISSE;
+	}
+
+	public String getFAMILLE() {
+		return FAMILLE;
+	}
+
+	public void setFAMILLE(String fAMILLE) {
+		FAMILLE = fAMILLE;
+	}
+
+	public String[] getGeom_x_y() {
+		return geom_x_y;
+	}
+
+	public void setGeom_x_y(String[] geom_x_y) {
+		this.geom_x_y = geom_x_y;
+	}
+
+	public String getGeom_name() {
+		return geom_name;
+	}
+
+	public void setGeom_name(String geom_name) {
+		this.geom_name = geom_name;
+	}
+
+	public String getGENRE() {
+		return GENRE;
+	}
+
+	public void setGENRE(String gENRE) {
+		GENRE = gENRE;
+	}
+
+	public String getNOM_COMMUN() {
+		return NOM_COMMUN;
+	}
+
+	public void setNOM_COMMUN(String nOM_COMMUN) {
+		NOM_COMMUN = nOM_COMMUN;
+	}
+
+	public String getCIRCONF() {
+		return CIRCONF;
+	}
+
+	public void setCIRCONF(String cIRCONF) {
+		CIRCONF = cIRCONF;
+	}
+
+	public String getANNEE__PLA() {
+		return ANNEE__PLA;
+	}
+
+	public void setANNEE__PLA(String aNNEE__PLA) {
+		ANNEE__PLA = aNNEE__PLA;
+	}
+
+	public String getESPACE_V_1() {
+		return ESPACE_V_1;
+	}
+
+	public void setESPACE_V_1(String eSPACE_V_1) {
+		ESPACE_V_1 = eSPACE_V_1;
+	}
+
+	public String getDatasetid() {
+		return datasetid;
+	}
+
+	public void setDatasetid(String datasetid) {
+		this.datasetid = datasetid;
+	}
+
+	@Override
+	public String toString() {
+		return "Arbre [HAUTEUR=" + HAUTEUR + ", recordid=" + recordid
+				+ ", ADRESSE=" + ADRESSE + ", ESPECE=" + ESPECE
+				+ ", ARRONDISSE=" + ARRONDISSE + ", FAMILLE=" + FAMILLE
+				+ ", geom_x_y=" + Arrays.toString(geom_x_y) + ", geom_name="
+				+ geom_name + ", GENRE=" + GENRE + ", NOM_COMMUN=" + NOM_COMMUN
+				+ ", CIRCONF=" + CIRCONF + ", ANNEE__PLA=" + ANNEE__PLA
+				+ ", ESPACE_V_1=" + ESPACE_V_1 + ", datasetid=" + datasetid
+				+ "]";
+	}
+    
+    
+     
+     
+
+        
+
+  
 }
