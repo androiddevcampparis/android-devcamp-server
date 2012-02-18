@@ -3,7 +3,7 @@ package com.devcamp.server.util;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.devcamp.server.model.poi.Arbre;
+
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
@@ -45,20 +45,20 @@ public class ProcessArbres {
 	}
 
 
-	public static List<Arbre> deserializeArbres(){
-		List<Arbre> arbres = new ArrayList<Arbre>();
-
-		Type listType =  new TypeToken<List<Arbre>>(){}.getType();
-		arbres = new Gson().fromJson(readJsonArray(ARBRES_URL), listType); 
-		return arbres;
-	}
+//	public static void deserializeArbres(){
+//		List<Arbre> arbres = new ArrayList<Arbre>();
+//
+//		Type listType =  new TypeToken<List<Arbre>>(){}.getType();
+//		arbres = new Gson().fromJson(readJsonArray(ARBRES_URL), listType); 
+//		return arbres;
+//	}
 
 	public static void main(String[] args){
 		//System.out.println(readJsonArray("http://demo2.opendatasoft.com/api/fetch/dataset/arbresremarquablesparis2011/?format=json&pretty_print=true"));
-		for (Arbre arbre : deserializeArbres()){
-			System.out.println(arbre);
-			
-		}
+//		for (Arbre arbre : deserializeArbres()){
+//			System.out.println(arbre);
+//			
+//		}
 
 	}
 
