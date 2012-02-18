@@ -13,6 +13,8 @@ public class ResponseData {
 	private String description;
 	private String addresse;
 	private String category;
+	private double latitude;
+	private double longitude;
 	
 	private String url_image;
 	private String wiki_link;
@@ -27,6 +29,8 @@ public class ResponseData {
 		this.description=poiData.getDescription();
 		this.addresse=poiData.getDescription();
 		this.category=poiData.getCategory();
+		this.latitude=poiData.getLatitude();
+		this.longitude=poiData.getLongitute();
 		
 	}
 	
