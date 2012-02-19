@@ -2,14 +2,13 @@ package com.devcamp.server.service;
 
 import com.devcamp.server.model.PoiData;
 import com.devcamp.server.resources.ResponseData;
-import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class PoiDataService {
 
-    @Autowired
+
     private MongoService mongoService;
 	
 
@@ -29,11 +28,15 @@ public class PoiDataService {
 	    return responses;
 		
 	}
-	
+
+    /**
+     *  COmputes the distance betweeen two point
+     * @param source
+     * @param dest
+     * @return
+     */
 	public double gpsDistance(PoiData source, PoiData dest){
-		//d = R * (Pi/2 - ArcSin( sin(destLat) * sin(sourceLat) 
-		//+ cos(destLong - sourceLong) * cos(destLat) * cos(sourceLat)))
-		
+
 		double destLat = dest.getLatitude();
 		double destLong = dest.getLongitude();
 		double sourceLat = source.getLatitude();

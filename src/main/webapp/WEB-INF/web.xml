@@ -6,16 +6,6 @@
 
     <display-name>Archetype Created Web Application</display-name>
 
-    <context-param>
-        <param-name>contextConfigLocation</param-name>
-        <param-value>classpath:beans.xml</param-value>
-    </context-param>
-    <listener>
-        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
-    </listener>
-    <listener>
-        <listener-class>org.springframework.web.context.request.RequestContextListener</listener-class>
-    </listener>
 
     <servlet>
 
@@ -24,13 +14,7 @@
 
         <servlet-class>com.sun.jersey.spi.container.servlet.ServletContainer</servlet-class>
 
-        <!-- <init-param>
 
-            <param-name>com.sun.jersey.config.property.resourceConfigClass</param-name>
-
-            <param-value>com.sun.jersey.api.core.PackagesResourceConfig</param-value>
-
-        </init-param>-->
 
         <init-param>
 

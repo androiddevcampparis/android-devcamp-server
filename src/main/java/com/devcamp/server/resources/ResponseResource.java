@@ -5,7 +5,6 @@ import com.devcamp.server.model.PoiData;
 import com.devcamp.server.service.MongoService;
 import com.devcamp.server.service.PoiDataService;
 import org.bson.types.ObjectId;
-import org.springframework.beans.factory.annotation.Autowired;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -16,7 +15,7 @@ import java.util.List;
 
 @Path("/")
 public class ResponseResource {
-    @Autowired
+
     MongoService mongoService;
 
     PoiDataService poiService;
@@ -24,6 +23,7 @@ public class ResponseResource {
     public ResponseResource(){
 
         poiService = new PoiDataService();
+        mongoService = new MongoService();
     }
 
     @GET

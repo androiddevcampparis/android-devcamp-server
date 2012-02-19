@@ -1,8 +1,9 @@
 package com.devcamp.server.model;
 
 import com.google.code.morphia.annotations.Entity;
+import com.google.code.morphia.annotations.Id;
 import org.bson.types.ObjectId;
-import org.springframework.data.annotation.Id;
+
 
 import java.io.Serializable;
 

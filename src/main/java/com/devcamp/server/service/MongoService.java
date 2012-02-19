@@ -5,15 +5,13 @@ import com.google.code.morphia.Datastore;
 import com.google.code.morphia.Morphia;
 import com.google.code.morphia.query.Query;
 import com.mongodb.Mongo;
-import org.springframework.stereotype.Service;
+
 
 import java.io.*;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
-
-@Service
 public class MongoService {
 
     private Mongo mongo;
@@ -53,7 +51,7 @@ public class MongoService {
             p.setLoc();
             ds.save(p);
         }
-     }
+    }
 
 
 
@@ -64,7 +62,7 @@ public class MongoService {
 
     public List<PoiData> getPoisNearBy(PoiData p){
         //List<PoiData> datas = ds.find(PoiData.class).field("");
-           return null;
+        return null;
     }
 
     public List<PoiData> getFromFile(String file){
@@ -109,9 +107,9 @@ public class MongoService {
 
     public List<PoiData> getAllPois(){
         String[] files = new String[]{"/MH-Ile-de-France.txt-fr_utf8_monument_opendata.paris.csv",
-                                      "/Arbres_remarquables_utf8_arbre_opendata.paris_new.csv",
-                                      //"/voies_actuelles.csv"
-                                      };
+                "/Arbres_remarquables_utf8_arbre_opendata.paris_new.csv",
+                //"/voies_actuelles.csv"
+        };
         List<PoiData> list = new ArrayList<PoiData>();
 
         for (String file : files){
@@ -164,6 +162,25 @@ public class MongoService {
     }
 
 
+
+
+
+    public String initMongoCloud(){
+        this.init();
+        List<PoiData> list = this.getAllPois();
+        for (PoiData data : list){
+            System.out.println(data);
+        }
+
+        this.savePoisToDb(list);
+
+
+
+        return "Done";
+    }
+
+
+
     public Datastore getDs() {
         return ds;
     }
@@ -187,21 +204,6 @@ public class MongoService {
 
     public void setMorphia(Morphia morphia) {
         this.morphia = morphia;
-    }
-
-
-    public String initMongoCloud(){
-        this.init();
-        List<PoiData> list = this.getAllPois();
-        for (PoiData data : list){
-            System.out.println(data);
-        }
-
-        this.savePoisToDb(list);
-
-
-
-        return "Done";
     }
 
     public static void main(String[] args){
