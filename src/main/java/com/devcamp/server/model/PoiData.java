@@ -1,22 +1,73 @@
 package com.devcamp.server.model;
 
+import com.google.code.morphia.annotations.Entity;
+import com.google.code.morphia.annotations.Id;
+import com.google.code.morphia.annotations.Indexed;
+import com.google.code.morphia.utils.IndexDirection;
 import org.bson.types.ObjectId;
 
-public class PoiData {
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
 
-	private ObjectId id;
+@Entity
+public class PoiData implements Serializable{
+
+    @Id
+	 ObjectId id;
 	private String titre;
 	private String addresse;
 	private String description;
-	private double longitute;
+	private double longitude;
 	private double latitude;
 	private String category;
+
+
+
+    @Indexed(IndexDirection.GEO2D)
+    private double[] loc;
+
+    private int sumsOnePlusOnes;
+
+    private List<PlusOne> plusOneList;
+
 	
 	public PoiData(){
+        plusOneList = new ArrayList<PlusOne>();
+
 		
 	}
 
-	public ObjectId getId() {
+
+    public int getSumsOnePlusOnes() {
+        return this.plusOneList.size();
+    }
+
+    public void setSumsOnePlusOnes(int sumsOnePlusOnes) {
+        this.sumsOnePlusOnes = sumsOnePlusOnes;
+    }
+
+    public List<PlusOne> getPlusOneList() {
+        return plusOneList;
+    }
+
+    public void setPlusOneList(List<PlusOne> plusOneList) {
+        this.plusOneList = plusOneList;
+    }
+
+    public double[] getLoc() {
+        return loc;
+    }
+
+    public void setLoc(double[] loc) {
+        this.loc = loc;
+    }
+
+    public void setLoc(){
+        loc= new double[]{this.latitude, this.longitude};
+    }
+
+    public ObjectId getId() {
 		return id;
 	}
 
@@ -48,12 +99,12 @@ public class PoiData {
 		this.description = description;
 	}
 
-	public double getLongitute() {
-		return longitute;
+	public double getLongitude() {
+		return longitude;
 	}
 
-	public void setLongitute(double longitute) {
-		this.longitute = longitute;
+	public void setLongitude(double longitude) {
+		this.longitude = longitude;
 	}
 
 	public double getLatitude() {
@@ -71,8 +122,16 @@ public class PoiData {
 	public void setCategory(String category) {
 		this.category = category;
 	}
-	
-	
-	
 
+    @Override
+    public String toString() {
+        return "PoiData{" +
+                "titre='" + titre + '\'' +
+                ", addresse='" + addresse + '\'' +
+                ", description='" + description + '\'' +
+                ", longitude=" + longitude +
+                ", latitude=" + latitude +
+                ", category='" + category + '\'' +
+                '}';
+    }
 }

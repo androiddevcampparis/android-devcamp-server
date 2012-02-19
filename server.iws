@@ -15,50 +15,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a74a67f8-4e7e-40bf-8ed4-ce3f8f0e4a78" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/AndroidDevCamp-Server.war" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/AndroidDevCamp-Server/WEB-INF/classes/com/devcamp/server/model/PoiData.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/AndroidDevCamp-Server/WEB-INF/classes/com/devcamp/server/model/User.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/AndroidDevCamp-Server/WEB-INF/classes/com/devcamp/server/resources/ResponseConverter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/AndroidDevCamp-Server/WEB-INF/classes/com/devcamp/server/resources/ResponseData.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/AndroidDevCamp-Server/WEB-INF/classes/com/devcamp/server/resources/ResponseResource.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/AndroidDevCamp-Server/WEB-INF/classes/com/devcamp/server/service/PoiDataService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/AndroidDevCamp-Server/WEB-INF/classes/com/devcamp/server/util/InitDatabase.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/AndroidDevCamp-Server/WEB-INF/classes/com/devcamp/server/util/MapperMorphia.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/AndroidDevCamp-Server/WEB-INF/lib/activation-1.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/AndroidDevCamp-Server/WEB-INF/lib/asm-3.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/AndroidDevCamp-Server/WEB-INF/lib/gson-2.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/AndroidDevCamp-Server/WEB-INF/lib/jackson-core-asl-1.1.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/AndroidDevCamp-Server/WEB-INF/lib/jaxb-api-2.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/AndroidDevCamp-Server/WEB-INF/lib/jaxb-impl-2.1.12.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/AndroidDevCamp-Server/WEB-INF/lib/jersey-client-1.1.2-ea.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/AndroidDevCamp-Server/WEB-INF/lib/jersey-core-1.1.2-ea.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/AndroidDevCamp-Server/WEB-INF/lib/jersey-json-1.1.2-ea.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/AndroidDevCamp-Server/WEB-INF/lib/jersey-server-1.1.2-ea.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/AndroidDevCamp-Server/WEB-INF/lib/jettison-1.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/AndroidDevCamp-Server/WEB-INF/lib/jsr311-api-1.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/AndroidDevCamp-Server/WEB-INF/lib/junit-4.8.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/AndroidDevCamp-Server/WEB-INF/lib/mongo-java-driver-2.6.5.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/AndroidDevCamp-Server/WEB-INF/lib/morphia-0.99.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/AndroidDevCamp-Server/WEB-INF/lib/stax-api-1.0-2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/AndroidDevCamp-Server/WEB-INF/lib/stax-api-1.0.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/devcamp/server/resources/ResponseConverter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/AndroidDevCamp-Server/WEB-INF/classes/MH-Ile-de-France.txt-fr_utf8_monument_opendata.paris.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/AndroidDevCamp-Server/WEB-INF/classes/beans.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/AndroidDevCamp-Server/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/AndroidDevCamp-Server/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/com.devcamp.envy/server/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/com.devcamp.envy/server/pom.xml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/devcamp/server/model/PlusOne.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/devcamp/server/service/DbHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/devcamp/server/service/MongoService.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/devcamp/server/util/InitDatabase.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/devcamp/server/util/MapperMorphia.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.iml" afterPath="$PROJECT_DIR$/server.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.ipr" afterPath="$PROJECT_DIR$/server.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.iws" afterPath="$PROJECT_DIR$/server.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/devcamp/server/model/PoiData.java" afterPath="$PROJECT_DIR$/src/main/java/com/devcamp/server/model/PoiData.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/devcamp/server/model/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/devcamp/server/model/User.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/devcamp/server/resources/ResponseData.java" afterPath="$PROJECT_DIR$/src/main/java/com/devcamp/server/resources/ResponseData.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/devcamp/server/resources/ResponseResource.java" afterPath="$PROJECT_DIR$/src/main/java/com/devcamp/server/resources/ResponseResource.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/devcamp/server/service/PoiDataService.java" afterPath="$PROJECT_DIR$/src/main/java/com/devcamp/server/service/PoiDataService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/beans.xml" afterPath="$PROJECT_DIR$/src/main/resources/beans.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
     </list>
     <ignored path="server.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -117,21 +89,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ResponseResource.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/devcamp/server/resources/ResponseResource.java">
+      <file leaf-file-name="MongoService.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/devcamp/server/service/MongoService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="72" selection-start="602" selection-end="602" vertical-scroll-proportion="0.5484897">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ResponseData.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/devcamp/server/resources/ResponseData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="13" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0">
+            <state line="39" column="33" selection-start="980" selection-end="980" vertical-scroll-proportion="-1.7272727">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -142,55 +103,46 @@
       <file leaf-file-name="User.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/devcamp/server/model/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="13" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PoiData.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/devcamp/server/model/PoiData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="13" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PoiDataService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/devcamp/server/service/PoiDataService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="4" selection-start="1326" selection-end="1326" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MapperMorphia.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/devcamp/server/util/MapperMorphia.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="13" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InitDatabase.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/devcamp/server/util/InitDatabase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="13" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ResponseConverter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/devcamp/server/resources/ResponseConverter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="26" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0">
+            <state line="19" column="33" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="imports" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+            <state />
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="15" selection-start="498" selection-end="498" vertical-scroll-proportion="3.047619">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResponseResource.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/devcamp/server/resources/ResponseResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="68" column="17" selection-start="1994" selection-end="1994" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResponseData.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/devcamp/server/resources/ResponseData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="13" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -198,7 +150,16 @@
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="7" selection-start="1375" selection-end="1375" vertical-scroll-proportion="0.0">
+            <state line="77" column="26" selection-start="2628" selection-end="2628" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DbHelper.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/devcamp/server/service/DbHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="43" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -219,21 +180,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/devcamp/server/util/TextFileToJson.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/devcamp/server/util/ProcessMonumentFile.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/devcamp/server/util/ProcessTournages.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/devcamp/server/model/Monument.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/devcamp/server/services/MonumentResource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/devcamp/server/util/FetchDataToDB.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/devcamp/server/model/Arbre.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/devcamp/server/util/ProcessArbres.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/devcamp/server/service/PoiDataService.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/devcamp/server/resources/ResponseData.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/devcamp/server/resources/ResponseConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/devcamp/server/service/MongoRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/devcamp/server/util/InitDatabase.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/beans.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/devcamp/server/service/PoiDataService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/devcamp/server/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/devcamp/server/model/PlusOne.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/devcamp/server/model/PoiData.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/devcamp/server/resources/ResponseResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/devcamp/server/service/MongoService.java" />
       </list>
     </option>
   </component>
@@ -385,6 +347,58 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -407,25 +421,93 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Favorites" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="dynamic.classpath" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
-  <component name="RunManager" selected="Application.ResponseResource">
+  <component name="RunManager" selected="Application.MongoService">
     <configuration default="false" name="ProcessMonumentFile" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false">
         <pattern>
@@ -492,6 +574,28 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="MongoService" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false">
+        <pattern>
+          <option name="PATTERN" value="com.devcamp.server.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.devcamp.server.service.MongoService" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="server" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings">
@@ -540,19 +644,6 @@
         <option name="PhingTarget" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-        <option name="PhingTarget" enabled="false" />
-      </method>
-    </configuration>
     <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
       <module name="" />
       <setting name="path" value="" />
@@ -568,11 +659,15 @@
         <option name="PhingTarget" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" adl_options="" air_descriptor_path="" air_program_params="" air_publisher_id="" air_root_dir_path="" air_run_mode="AppDescriptor" browser_family="FIREFOX" class_name="" debugger_sdk="Module SDK" html_or_swf_file_path="" launcher_type="OSDefault" main_class_name="" method_name="" module_name="" output_log_level="" package_name="" player_path="/usr/bin/flashplayerdebugger" port="0" run_mode="HtmlOrSwfFile" run_trusted="false" scope="Class" socket_policy_port="0" url_to_launch="http://">
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
         <option name="Maven.BeforeRunTask" enabled="false" />
         <option name="PhingTarget" enabled="false" />
       </method>
@@ -586,6 +681,15 @@
       <setting name="workingDirectory" value="$PROJECT_DIR$" />
       <setting name="sysFilter" value=".*" />
       <setting name="exampleFilter" value=".*" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+        <option name="PhingTarget" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" adl_options="" air_descriptor_path="" air_program_params="" air_publisher_id="" air_root_dir_path="" air_run_mode="AppDescriptor" browser_family="FIREFOX" class_name="" debugger_sdk="Module SDK" html_or_swf_file_path="" launcher_type="OSDefault" main_class_name="" method_name="" module_name="" output_log_level="" package_name="" player_path="/usr/bin/flashplayerdebugger" port="0" run_mode="HtmlOrSwfFile" run_trusted="false" scope="Class" socket_policy_port="0" url_to_launch="http://">
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -676,10 +780,11 @@
         <option name="PhingTarget" enabled="false" />
       </method>
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.ProcessMonumentFile" />
       <item index="1" class="java.lang.String" itemvalue="Application.TextFileToJson" />
       <item index="2" class="java.lang.String" itemvalue="Application.ResponseResource" />
+      <item index="3" class="java.lang.String" itemvalue="Application.MongoService" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -713,30 +818,31 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-5" width="1282" height="806" extended-state="6" />
+    <frame x="-5" y="-1" width="1290" height="806" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Portfolio" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Portfolio" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="IvyIDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18373984" sideWeight="0.7047184" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18373984" sideWeight="0.82952815" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16747968" sideWeight="0.7047184" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2952816" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23170732" sideWeight="0.79908675" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20091324" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -792,14 +898,82 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="46" selection-start="99" selection-end="99" vertical-scroll-proportion="0.10948905">
-          <folding />
-        </state>
+        <state line="3" column="46" selection-start="99" selection-end="99" vertical-scroll-proportion="0.10948905" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/MH-Ile-de-France.txt-fr_utf8_monument_opendata.paris.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="170" selection-start="146" selection-end="166" vertical-scroll-proportion="0.0">
+        <state line="0" column="170" selection-start="146" selection-end="166" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/devcamp/server/resources/ResponseConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="26" selection-start="115" selection-end="115" vertical-scroll-proportion="0.11923689" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/devcamp/server/service/PoiDataService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="45" selection-start="774" selection-end="774" vertical-scroll-proportion="0.5171026">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Arbres_remarquables_utf8_arbre_opendata.paris_new.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="233" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/beans.xml">
+      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="4" selection-start="1181" selection-end="1181" vertical-scroll-proportion="0.4859611">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/devcamp/server/model/PoiData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="38" selection-start="880" selection-end="880" vertical-scroll-proportion="1.2676057">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/devcamp/server/model/PlusOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="31" selection-start="279" selection-end="279" vertical-scroll-proportion="0.36217305">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/devcamp/server/service/DbHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="43" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/devcamp/server/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="33" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="26" selection-start="2628" selection-end="2628" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -808,65 +982,21 @@
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
         <state />
       </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
-      </provider>
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="55" selection-start="935" selection-end="935" vertical-scroll-proportion="0.6231884">
+        <state line="14" column="15" selection-start="498" selection-end="498" vertical-scroll-proportion="3.047619">
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="7" selection-start="1375" selection-end="1375" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/devcamp/server/resources/ResponseConverter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/devcamp/server/resources/ResponseResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="26" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/devcamp/server/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/devcamp/server/model/PoiData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="13" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/devcamp/server/service/PoiDataService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="4" selection-start="1326" selection-end="1326" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/devcamp/server/util/MapperMorphia.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/devcamp/server/util/InitDatabase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="13" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0">
+        <state line="68" column="17" selection-start="1994" selection-end="1994" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -874,15 +1004,13 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/devcamp/server/resources/ResponseData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="13" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/devcamp/server/resources/ResponseResource.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/devcamp/server/service/MongoService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="72" selection-start="602" selection-end="602" vertical-scroll-proportion="0.5484897">
+        <state line="39" column="33" selection-start="980" selection-end="980" vertical-scroll-proportion="-1.7272727">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

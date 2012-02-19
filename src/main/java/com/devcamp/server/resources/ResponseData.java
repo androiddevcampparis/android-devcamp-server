@@ -29,7 +29,7 @@ public class ResponseData {
 		this.addresse=poiData.getDescription();
 		this.category=poiData.getCategory();
 		this.latitude=poiData.getLatitude();
-		this.longitude=poiData.getLongitute();
+		this.longitude=poiData.getLongitude();
 
 	}
 

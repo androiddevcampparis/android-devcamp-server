@@ -1,16 +1,17 @@
 package com.devcamp.server.model;
 
+import com.google.code.morphia.annotations.Entity;
+import org.bson.types.ObjectId;
+import org.springframework.data.annotation.Id;
+
 import java.io.Serializable;
 
-import javax.xml.bind.annotation.XmlRootElement;
+//import com.google.code.morphia.annotations.Id;
 
-import org.bson.types.ObjectId;
-
-import com.google.code.morphia.annotations.Id;
-
-@XmlRootElement
+@Entity
 public class User implements Serializable {
-	@Id
+
+    @Id
 	private ObjectId id;
 	private String uid;
 	private String name;
