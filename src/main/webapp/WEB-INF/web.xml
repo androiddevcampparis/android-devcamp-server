@@ -4,12 +4,21 @@
 
 <web-app>
 
-    <display-name>Droid Dev Camp Server</display-name>
+    <display-name>Archetype Created Web Application</display-name>
+
     <servlet>
 
-        <servlet-name>Rest Server</servlet-name>
+        <servlet-name>Jersey Web Application</servlet-name>
 
         <servlet-class>com.sun.jersey.spi.container.servlet.ServletContainer</servlet-class>
+
+       <!-- <init-param>
+
+            <param-name>com.sun.jersey.config.property.resourceConfigClass</param-name>
+
+            <param-value>com.sun.jersey.api.core.PackagesResourceConfig</param-value>
+
+        </init-param>-->
 
         <init-param>
 
@@ -25,10 +34,12 @@
 
     <servlet-mapping>
 
-        <servlet-name>Rest Server</servlet-name>
+        <servlet-name>Jersey Web Application</servlet-name>
 
-        <url-pattern>/andorid-server/*</url-pattern>
+        <url-pattern>/*</url-pattern>
 
     </servlet-mapping>
+
 </web-app>
+
 

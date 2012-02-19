@@ -1,8 +1,9 @@
 package com.devcamp.server.resources;
 
+import com.devcamp.server.model.PoiData;
 import org.bson.types.ObjectId;
 
-import com.devcamp.server.model.PoiData;
+
 
 public class ResponseData {
 
@@ -103,7 +104,18 @@ public class ResponseData {
 	public void setWiki_link(String wiki_link) {
 		this.wiki_link = wiki_link;
 	}
-	
-	
 
+    @Override
+    public String toString() {
+        return "ResponseData{" +
+                "title='" + title + '\'' +
+                ", description='" + description + '\'' +
+                ", addresse='" + addresse + '\'' +
+                ", category='" + category + '\'' +
+                ", latitude=" + latitude +
+                ", longitude=" + longitude +
+                ", url_image='" + url_image + '\'' +
+                ", wiki_link='" + wiki_link + '\'' +
+                '}';
+    }
 }

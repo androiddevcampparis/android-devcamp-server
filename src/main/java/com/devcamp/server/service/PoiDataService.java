@@ -1,14 +1,11 @@
 package com.devcamp.server.service;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Set;
-
-
 import com.devcamp.server.model.PoiData;
 import com.devcamp.server.resources.ResponseData;
 import com.devcamp.server.util.InitDatabase;
-import com.devcamp.server.model.*;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class PoiDataService {
 	
@@ -18,12 +15,12 @@ public class PoiDataService {
 	   	
 	}
 	
-	public List<ResponseData> findData(PoiData poiData, double radius){
+	public List<ResponseData> findData(PoiData poiData, double radius, String category){
 	  
 		//extract all stuff in the range from MongoDB
 	    List<ResponseData> responses = new ArrayList<ResponseData>();
 	    for (PoiData poi : listData){
-	    	if (gpsDistance(poiData, poi) <= radius){
+	    	if ((gpsDistance(poiData, poi) <= radius) && (poi.getCategory().equals(category))){
 	    		responses.add(new ResponseData(poi));
 	    	}
 	    }
@@ -45,13 +42,5 @@ public class PoiDataService {
 		
 		return d;
 	}
-	
-	public static void main(String[] args){
-		PoiDataService pds = new PoiDataService();
-//		//PoiData pdt = pds.gpsDistanc
-//		for (ResponseData rps: pds.findData(poiData, 100));
-//		
-	}
 
-	
 }
